@@ -4,4 +4,4 @@ var accountPassword = "123456";
 accountCity = "Jaipur";
 let accountState;
 
-console.log(accountId);
+console.log(accountCity);
