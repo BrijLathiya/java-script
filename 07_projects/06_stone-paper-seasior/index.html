@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Rock, Paper, Scissors</h1>
+    <p class="instructions">Select your choice below to play against the computer!</p>
+
+    <div class="choices">
+      <button class="choice" id="rock">
+        <img src="./img/rock.png" class="choice-img" alt="Rock">
+        Rock
+      </button>
+      <button class="choice" id="paper">
+        <img src="./img/hand-paper.png" class="choice-img" alt="Paper">
+        Paper
+      </button>
+      <button class="choice" id="scissors">
+        <img src="./img/scissors.png" class="choice-img" alt="Scissors">
+        Scissors
+      </button>
+    </div>
+
+    <div class="result">
+      <p id="user-choice"><strong>Your Choice:</strong> -</p>
+      <p id="computer-choice"><strong>Computer's Choice:</strong> -</p>
+      <p id="winner"><strong>Result:</strong> -</p>
+    </div>
+
+    <button class="reset-btn" id="reset">Reset Game</button>
+  </div>
+
+  <!-- Table for History of Results -->
+  <div class="results-history">
+    <h2>Game History (Last 10 Rounds)</h2>
+    <table id="history">
+      <thead>
+        <tr>
+          <th>Your Choice</th>
+          <th>Computer's Choice</th>
+          <th>Winner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- History rows will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Final Result Section -->
+<div class="final-result" id="final-result">
+  <!-- Final result will be dynamically inserted here -->
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
