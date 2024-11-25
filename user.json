@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Manuela",
+        "last": "Garrido"
+      },
+      "location": {
+        "street": {
+          "number": 6970,
+          "name": "Avenida de Salamanca"
+        },
+        "city": "Oviedo",
+        "state": "Asturias",
+        "country": "Spain",
+        "postcode": 61714,
+        "coordinates": {
+          "latitude": "-31.5997",
+          "longitude": "120.5893"
+        },
+        "timezone": {
+          "offset": "+9:30",
+          "description": "Adelaide, Darwin"
+        }
+      },
+      "email": "manuela.garrido@example.com",
+      "login": {
+        "uuid": "95aeb292-93a8-464a-a7cc-005f03e0e3b0",
+        "username": "smallbear155",
+        "password": "sergio",
+        "salt": "nOHxrOyB",
+        "md5": "0da2929ec7ef63194cf65f5542c7c957",
+        "sha1": "0e7cfb59b054717a691eb7393038ddf3c766bdc1",
+        "sha256": "b76504fba720da54836520916afd1d757d643b20fb09d8ede3804d362ad3773f"
+      },
+      "dob": {
+        "date": "1965-09-12T18:54:48.439Z",
+        "age": 59
+      },
+      "registered": {
+        "date": "2021-09-02T12:48:27.619Z",
+        "age": 3
+      },
+      "phone": "928-092-704",
+      "cell": "612-442-385",
+      "id": {
+        "name": "DNI",
+        "value": "61609273-D"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+      },
+      "nat": "ES"
+    }
+  ],
+  "info": {
+    "seed": "611994f46d7b4270",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
